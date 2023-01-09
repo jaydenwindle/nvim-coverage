@@ -75,6 +75,9 @@ local defaults = {
 
     -- language specific configuration
     lang = {
+        solidity = {
+            coverage_file = "coverage/lcov.info",
+        },
         dart = {
             coverage_file = "coverage/lcov.info",
         },
